@@ -61,7 +61,7 @@ while True:
 	The load Average is
 	""" + str(os.getloadavg()) +"""</p>
 	<p>
-	""" + HTML.table(table_data,header_row=['Lastname', 'First name', 'Age']) + """</p>
+	""" + HTML.table(table_data) + """</p>
 	<p>
 	""" + str(colortable) + """</p>
 	</div>

@@ -31,7 +31,7 @@ while True:
 	table_data = [
 
 	['Smith',	'John',	30],
-	['Carpenter',	'Jack',	47],
+	['Carpenter',	'Jack',	str(get_cpu_temp_celsius())],
 	['Johnson',	'Paul',	62],
 	
 	]
